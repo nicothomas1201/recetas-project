@@ -1,0 +1,22 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5.1875rem;
+  align-items: center;
+}
+
+.header-logo{
+  block-size: auto;
+  aspect-ratio: 1/1;
+}
+
+.header-logo img{
+  vertical-align: middle;
+  inline-size: 100%;
+  object-fit: contain;
+}
+
+.header i{
+  font-size: 1.5rem;
+  cursor: pointer;
+}

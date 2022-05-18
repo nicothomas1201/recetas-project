@@ -1,0 +1,45 @@
+.ingredients{
+  background-color: var(--green-ligth);
+  border-radius: .5rem;
+  border: none;
+  padding: 2.5rem;
+}
+
+.ingredients-header{
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.ingredients-header h3{
+  font: var(--title-46regular);
+  color: var(--primary);
+  margin: 0;
+}
+
+.ingredients-header span i{
+  margin-inline-end: 1rem;
+}
+
+.ingredients-header span{
+  font: var(--body-16ligth);
+  color: var(--grey-1);
+}
+
+.ingredients-list{
+  list-style: none;
+  margin: 0;
+  margin-block: 2rem;
+  padding: 0;
+  color: var(--primary);
+  font: var(--body-16bold);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ingredients-buttons{
+  display: flex;
+  inline-size: 100%;
+  justify-content: space-between;
+}

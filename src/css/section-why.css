@@ -1,0 +1,51 @@
+.sectionWhy{
+  inline-size: 100%;
+  text-align: center;
+}
+
+.sectionWhy-titles h2{
+  font: var(--title-58medium);
+  color: var(--primary);
+  margin: 0;
+  margin-block-end: 3rem;
+}
+
+.sectionWhy-titles h3{
+  font: var(--body-16ligth);
+  color: var(--black);
+  margin: 0;
+}
+
+
+.sectionWhy-description{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 2rem;
+}
+
+.sectionWhy-des{
+  text-align: center;
+}
+
+.sectionWhy-des .sectionWhy-img{
+  font: var(--body-16ligth);
+  color: var(--primary);
+}
+
+.sectionWhy-des .sectionWhy-img span{
+  display: block;
+  margin-block-start: .5rem;
+}
+
+.sectionWhy-des .sectionWhy-img img{
+  vertical-align: middle;
+}
+
+.sectionWhy-des h2{
+  color: var(--primary);
+  font: var(--title-46regular);
+}
+
+.sectionWhy-des p{
+  font: var(--body-16ligth);
+}

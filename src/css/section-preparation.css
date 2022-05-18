@@ -1,0 +1,6 @@
+.section-preparation{
+  display: grid;
+  grid-template-columns: 528px 1fr ;
+  gap: 3rem;
+  padding: 2rem;
+}
